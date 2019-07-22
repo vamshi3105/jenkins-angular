@@ -2,7 +2,7 @@
  * This readme explains how to build angular applicaation and serve it new Apache using jenkins
  * These are the steps followed
  * Created a Docker file which takes jenkins as a base image and install nodejs,npm,angular/cli
- * Build the Docker image using the docker pipe
+ * Build the Docker image using the docker file
  * Run jenkins container with the newely created image
  * Created a jenkins job which pulls the angular source code
  * Added a build step to build the artifact
